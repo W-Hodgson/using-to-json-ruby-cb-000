@@ -7,7 +7,7 @@ class PostsController < ApplicationController
 
   def show
     @post = Post.find(params[:id])
-    respont_to do |format|
+    respond_to do |format|
 
     end
   end
